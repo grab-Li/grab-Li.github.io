@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>FE-internship</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="headline header__headline">
+            <ul class="headline__menu">
+                <img src="img/logo.svg" class="headline__logo">
+                <div class="headline__items">
+                    <li class="headline__item">Туры</li>
+                    <li class="headline__item">Создать тур</li>
+                    <li class="headline__item">Отзывы</li>
+                    <li class="headline__item">Истории</li>
+                </div>
+
+                <li class="headline__phone">+7 999 999 99 99</li>
+            </ul>
+        </div>
+        <div class="header__content">
+            <h1 class="header__h1">Идеальные путешествия cуществуют</h1>
+            <p class="header__p">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+            <button class="header__button">Найти тур</button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__choose-tour">
+            <div class="choose-tour__menu">
+                <h2>Выбери свой тур</h2>
+                <ul class="choose-tour__menu-items">
+                    <li class="choose-tour__menu-item">Популярные</li>
+                    <li class="choose-tour__menu-item">Авторские</li>
+                    <li class="choose-tour__menu-item">Походы</li>
+                    <li class="choose-tour__menu-item">Сплавы</li>
+                    <li class="choose-tour__menu-item">Велопрогулки</li>
+                </ul>
+            </div>
+            <div class="choose-tour__items">
+                <div class="choose-tour__item choose-tour__img-1">
+                    <h1 class="choose-tour__h1">Путешествие в горы</h1>
+                    <p class="choose-tour__p">от 80 000 руб</p>
+                    <a class="choose-tour__href" href="">Подробнее →</a>
+                </div>
+                <div class="choose-tour__item choose-tour__img-2">
+                    <h1 class="choose-tour__h1">Путешествие в горы</h1>
+                    <p class="choose-tour__p">от 80 000 руб</p>
+                    <a class="choose-tour__href" href="">Подробнее →</a>
+                </div>
+                <div class="choose-tour__item choose-tour__img-3">
+                    <h1 class="choose-tour__h1">Путешествие в горы</h1>
+                    <p class="choose-tour__p">от 80 000 руб</p>
+                    <a class="choose-tour__href" href="">Подробнее →</a>
+                </div>
+                <div class="choose-tour__item choose-tour__img-4">
+                    <h1 class="choose-tour__h1">Путешествие в горы</h1>
+                    <p class="choose-tour__p">от 80 000 руб</p>
+                    <a class="choose-tour__href" href="">Подробнее →</a>
+                </div>
+                <div class="choose-tour__item choose-tour__img-5">
+                    <h1 class="choose-tour__h1">Путешествие в горы</h1>
+                    <p class="choose-tour__p">от 80 000 руб</p>
+                    <a class="choose-tour__href" href="">Подробнее →</a>
+                </div>
+                <div class="choose-tour__item choose-tour__img-6">
+                    <h1 class="choose-tour__h1">Путешествие в горы</h1>
+                    <p class="choose-tour__p">от 80 000 руб</p>
+                    <a class="choose-tour__href" href="">Подробнее →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="tour-form">
+            <h2 class="tour-form__h2">Собери свой тур</h2>
+            <p class="tour-form__p">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+            <form class="tour-form__box">
+                <div class="tour-form__data-1">
+                    <div class="form-group">
+                        <label for="name">Имя</label>
+                        <input type="text" id="name" placeholder="Введите Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="destination">Направление</label>
+                        <input type="text" id="destination" placeholder="Куда хотите ехать">
+                    </div>
+                </div>
+                <div class="tour-form__data-2">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@mail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон</label>
+                        <input type="tel" id="phone" placeholder="+7 (___) ___-__-__">
+                    </div>
+                </div>
+                <div class="tour-form__data-3">
+                    <div class="form-group">
+                        <label for="date-from">Дата от</label>
+                        <input type="date" id="date-from">
+                    </div>
+                    <div class="form-group">
+                        <label for="date-to">Дата до</label>
+                        <input type="date" id="date-to">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="comments">Комментарий</label>
+                    <textarea id="comments" placeholder=""></textarea>
+                </div>
+                <div class="tour-form__radio">
+                    <div class="form-group">
+                        <p>Вам есть 18 лет?</p>
+                        <div class="form-group__radiobuttons">
+                            <label><input class="radio" type="radio" name="age" value="yes"> Да</label>
+                            <label><input class="radio" type="radio" name="age" value="no"> Нет</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label><input type="checkbox"> Нажимая кнопку, я принимаю условия <a href="#">Лицензионного
+                            договора</a></label>
+                </div>
+                <div class="form-group__buttons">
+                    <button type="submit">Найти тур</button>
+                    <button type="reset">Сбросить</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="js/header.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
